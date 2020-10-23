@@ -9,7 +9,7 @@ Only European tax rates are currently available, other areas will be added as so
 
 Using composer, you only need to run:
 ```sh
-composer bagisto-eu/tax-rates
+composer require bagisto-eu/tax-rates
 ```
 
 ## Usage
