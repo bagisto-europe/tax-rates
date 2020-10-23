@@ -1,4 +1,4 @@
-# Bagisto EU Tax Rates
+# Bagisto Tax Rates
 
 This extensions helps you to import all tax rates in your Bagisto instance.
 
