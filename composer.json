@@ -1,0 +1,24 @@
+{
+    "name": "bagisto/tax-rates",
+    "description": "This extensions helps you to import all tax rates in your Bagisto instance.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bagisto Europe",
+            "email": "info@bagisto.eu",
+            "homepage": "https://bagisto.eu"
+        },
+        {
+            "name": "Glenn Hermans",
+            "email": "info@bagisto.eu"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bagisto\\TaxRates\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
