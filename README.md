@@ -1,8 +1,9 @@
 # Bagisto Tax Rates
-![Packagist Downloads](https://img.shields.io/packagist/dm/bagisto-eu/tax-rates)
+[![Packagist Downloads](https://img.shields.io/packagist/dm/bagisto-eu/tax-rates)](https://packagist.org/packages/bagisto-eu/tax-rates)
 [![GitHub license](https://img.shields.io/github/license/bagisto-europe/tax-rates)](https://github.com/bagisto-europe/tax-rates/blob/master/LICENSE)
 
 This extensions helps you to import all tax rates for each country in your Bagisto instance.
+Only European tax rates are currently available, other areas will be added as soon as possible..
 
 ## Installation
 
