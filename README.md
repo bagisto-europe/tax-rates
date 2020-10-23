@@ -18,3 +18,6 @@ php artisan db:seed --class="Bagisto\TaxRates\Database\Seeders\DatabaseSeeder"
 ```
 
 Now go to Admin -> Settings -> Taxes -> Tax Rates.
+
+## Changelog
+Please see the [CHANGELOG](CHANGELOG.md) file for more information about what has recently changed.
