@@ -1,5 +1,5 @@
 {
-    "name": "bagisto/tax-rates",
+    "name": "bagisto-eu/tax-rates",
     "description": "This extensions helps you to import all tax rates in your Bagisto instance.",
     "license": "MIT",
     "authors": [

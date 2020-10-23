@@ -3,7 +3,7 @@
 namespace Bagisto\TaxRates\Database\Seeders;
 
 use Carbon\Carbon;
-use DB;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Seeder;
 
 class EuropeTaxRatesSeeder extends Seeder

@@ -1,4 +1,5 @@
 # Bagisto Tax Rates
+[![GitHub license](https://img.shields.io/github/license/bagisto-europe/tax-rates)](https://github.com/bagisto-europe/tax-rates/blob/master/LICENSE)
 
 This extensions helps you to import all tax rates in your Bagisto instance.
 
@@ -6,7 +7,7 @@ This extensions helps you to import all tax rates in your Bagisto instance.
 
 Using composer, you only need to run:
 ```
-composer bagisto/tax-rates
+composer bagisto-eu/tax-rates
 ```
 
 ## Usage
