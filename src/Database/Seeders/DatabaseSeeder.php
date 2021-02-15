@@ -16,6 +16,7 @@ class DatabaseSeeder extends Seeder
     {
         Model::unguard();
         $this->call(EuropeTaxRatesSeeder::class);
+        $this->call(UsTaxRatesSeeder::class);
         Model::reguard();
     }
 }

@@ -7,10 +7,6 @@
             "name": "Bagisto Europe",
             "email": "info@bagisto.eu",
             "homepage": "https://bagisto.eu"
-        },
-        {
-            "name": "Glenn Hermans",
-            "homepage": "https://github.com/ghermans"
         }
     ],
     "require": {
