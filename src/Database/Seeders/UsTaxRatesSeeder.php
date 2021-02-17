@@ -164,21 +164,21 @@ class UsTaxRatesSeeder extends Seeder
                 'tax_rate'   => '6.25'
             ],
             [
-                'identifier' => 'Idaho (reduced: groceries)',
+                'identifier' => 'Ilinois (reduced: groceries)',
                 'is_zip'     => 0,
                 'state'      => 'IL',
                 'country'    => 'US',
                 'tax_rate'   => '1.0'
             ],
             [
-                'identifier' => 'Idaho (reduced: prepare food)',
+                'identifier' => 'Ilinois (reduced: prepare food)',
                 'is_zip'     => 0,
                 'state'      => 'IL',
                 'country'    => 'US',
                 'tax_rate'   => '8.25'
             ],
             [
-                'identifier' => 'Idaho (reduced: pharma)',
+                'identifier' => 'Ilinois (reduced: pharma)',
                 'is_zip'     => 0,
                 'state'      => 'IL',
                 'country'    => 'US',
