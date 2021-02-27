@@ -21,7 +21,7 @@ php artisan db:seed --class="Bagisto\TaxRates\Database\Seeders\DatabaseSeeder"
 
 ### Import only European tax rates
 ```sh
-php artisan db:seed --class="Bagisto\TaxRates\Database\Seeders\EuropeanTaxRatesSeeder"
+php artisan db:seed --class="Bagisto\TaxRates\Database\Seeders\EuropeTaxRatesSeeder"
 ```
 
 ### Import only US tax rates
