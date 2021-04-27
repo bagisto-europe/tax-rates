@@ -6,7 +6,7 @@ use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Seeder;
 
-class USATaxRatesSeeder extends Seeder
+class UsTaxRatesSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -29,7 +29,6 @@ class USATaxRatesSeeder extends Seeder
                         $handle = fopen($dir.$file, 'r');
                         while ( ($data = fgetcsv($handle) ) !== FALSE ) {
                             
-                            //echo is_numeric($data[1]) . " " . $data[1] ."\n";
                             if (is_numeric($data[1])) {
                                 $data_ = [
                                     'identifier'=>$data[2]. " (".$data[1].")",
@@ -52,8 +51,6 @@ class USATaxRatesSeeder extends Seeder
                 closedir($dh);
             }
         }
-
-        //insert into tax_categories_tax_rates (tax_category_id, tax_rate_id) select '2', id from tax_rates where id in whatever was just inserted
 
     }
 

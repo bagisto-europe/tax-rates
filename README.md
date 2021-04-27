@@ -19,7 +19,7 @@ Run the following command in your terminal
 php artisan db:seed --class="Bagisto\TaxRates\Database\Seeders\DatabaseSeeder"
 ```
 
-### Import only European tax rate
+### Import only European tax rates
 
 ```sh
 php artisan db:seed --class="Bagisto\TaxRates\Database\Seeders\EuropeTaxRatesSeeder"
