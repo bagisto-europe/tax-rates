@@ -19,12 +19,18 @@ Run the following command in your terminal
 php artisan db:seed --class="Bagisto\TaxRates\Database\Seeders\DatabaseSeeder"
 ```
 
-### Import only European tax rates
+### Import only European tax rate
+
 ```sh
 php artisan db:seed --class="Bagisto\TaxRates\Database\Seeders\EuropeTaxRatesSeeder"
 ```
 
 ### Import only US tax rates
+
+Go here: https://www.avalara.com/taxrates/en/state-rates.html - and download the appropriate states' tax rates.  Save the csv files to the /Data directory.
+
+Then do:
+
 ```sh
 php artisan db:seed --class="Bagisto\TaxRates\Database\Seeders\UsTaxRatesSeeder"
 ```
